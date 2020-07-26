@@ -1,154 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1. minimum-scale=1"
     />
 
-    <!-- Custom css file -->
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!-- Animate CSS -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
-
-    <!-- Google Fonts Roboto  -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Font Awesome -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
       integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
       crossorigin="anonymous"
     />
-    <title>Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Trung Duc</title>
   </head>
-  <body class="light">
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-custom sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html"><img src="./img/profile-logo.png" alt="logo"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <body>
+    <section class="s1">
+      <div style="padding-bottom: 32px;" class="main-container">
+        <div class="greeting-wrapper">
+          <h1>Hi, I am Trung Duc</h1>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experiences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item has-dropdown">
-              <a class="nav-link" href="#">Theme</a>
-              <ul class="dropdown">
-                <li class="dropdown-item"><a href="#" id="light">Light</a></li>
-                <li class="dropdown-item"><a href="#" id="dark">Dark</a></li>
-                <li class="dropdown-item"><a href="#" id="solar">Solar</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
+        <div class="intro-wrapper">
 
-    <!-- Start Section 1 -->
-    <section class="section-1">
-      <div class="container">
-        </div>
-          <h1 class="section-1-heading">
-            Web Developer
-          </h1>
-          <img src="./img/trungduc.jpeg" alt="trungduc" id="trungduc-img" />
-          <h3 id="person-name">Trung Duc</h3>
-          <a href="#" class="section-1-btn">Projects</a>
-        </div>
-      </div>
-    </section>
-    <!-- End Section 1 -->
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div class="browser-dot" id="dot-1"></div>
+              <div class="browser-dot" id="dot-2"></div>
+              <div class="browser-dot" id="dot-3"></div>
+            </div>
+            <ul id="navigation">
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
 
-    <!-- Start Section 2 -->
-    <section class="section-2">
-      <div class="container">
-        <div>
-            <h2>Experience</h2>
-            <p>Web developer recently graduated from LaSalle College with college studies in Computer Science Technology - Programming. Fluent in HTML, CSS, Bootstrap, jQuery, JavaScript, PHP. Has a solid foundation in relational database systems (MySQL, MSSQL), Object-Oriented Programming (JavaScript, PHP, Java). Self-motivated and fast learner. I look forward to work where I can enhance my skills and explore my potential to the fullest.</p>
-        </div>
-        <div class="skills-section">
-          <h2>Technologies I've worked with:</h2>
-          <div class="row">
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/html.png" id="html"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/css.png" id="css"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/sass.png" id="sass"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/js.png" id="js"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/java.png"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/jquery.png" id="jquery"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/bootstrap.png" id="bootstrap"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/github.png"></div>
-                <div class="skill-icon"><img class="img-responsive" src="img/skills/linux.png"></div>
+          <div class="left-column">
+            <img
+              id="profile-pic"
+              src="./images/TrungDuc.jpg"
+              alt="profile picture"
+            />
+            <h5 style="text-align: center;">
+              Personalize Theme
+            </h5>
+
+            <div id="theme-options-wrapper">
+              <div class="theme-dot" id="light-mode"></div>
+              <div class="theme-dot" id="green-mode"></div>
+              <div class="theme-dot" id="blue-mode"></div>
+              <div class="theme-dot" id="purple-mode"></div>
+            </div>
+
+            <p id="setting-note">
+              *Theme settings will be saved for <br />
+              your next visit
+            </p>
+          </div>
+
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div id="corner-tl" class="corner"></div>
+                <div id="corner-tr" class="corner"></div>
+                <h3>What I do</h3>
+                <p>
+                  A developer recently graduated from LaSalle College with
+                  college studies in Computer Science Technology - Programming.
+                  Self-motivated and fast learner. I look forward to work where
+                  I can enhance my skills and explore my potential to the
+                  fullest.
+                </p>
+                <div id="corner-br" class="corner"></div>
+                <div id="corner-bl" class="corner"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Container-->
-  </section>
-    <!-- End Section 2 -->
+    </section>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+            <p>
+              Software developer recently graduated from LaSalle College with
+              college studies in Computer Science Technology-Programming.
+            </p>
+            <p>
+              Fluent in HTML, CSS, Bootstrap, jQuery, JavaScript, PHP. Has a
+              solid foundation in relational database systems (MySQL, MSSQL),
+              Object-Oriented Programming (JavaScript, PHP, Java).
+              Self-motivated and fast learner. I look forward to work where I
+              can enhance my skills and explore my potential to the fullest.
+            </p>
+            <hr />
+            <h4>Top Expertise</h4>
+            <p>
+              Web developer with primary focus on React.js:
+              <a target="_blank" href="./Duc's Resume.pdf">Download Resume</a>
+            </p>
+            <div id="skills">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap 4</li>
+                <li>React.js</li>
+              </ul>
+              <ul>
+                <li>Node.js</li>
+                <li>PHP</li>
+                <li>Firebase</li>
+                <li>AWS</li>
+                <li>Java</li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links">
+            <img
+              id="social-img"
+              src="./images/web-programming-languages.jpg"
+              alt="skills"
+            />
+            <h3>Find me on Linkedln and Github</h3>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nguyen-trung-duc-102909140/"
+              >Linkedln</a
+            >
+            <a target="_blank" href="#">Github</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Optional JavaScript -->
-    <script src="./js/app.js"></script>
+    <section class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center; padding-top: 40px;">
+          Some of my past projects
+        </h3>
+
+        <div class="post-wrapper">
+          <div>
+            <div class="post">
+              <img class="post-thumbnail" src="./images/netflix.jpg" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Rerum aut minus aperiam ipsam id quasi! Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Rerum aut minus aperiam
+                  ipsam id quasi!
+                </p>
+                <a target="_blank" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="post-thumbnail" src="./images/netflix.jpg" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Rerum aut minus aperiam ipsam id quasi!
+                </p>
+                <a target="_blank" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="post-thumbnail" src="./images/netflix.jpg" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+                <a target="_blank" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <h3 style="text-align: center; padding-top: 40px;">
+          Contact Me
+        </h3>
+        <form id="contact-form">
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" />
+
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" />
+
+          <label>Message</label>
+          <textarea name="message" class="input-field"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <section class="s1">
+      <div class="main-container">
+        <div class="footer">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa fa-facebook" aria-hidden="true"></i></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+          <p>
+            Made with <i class="fa fa-heart fa-fw fa-lg"></i> by Nguyen Trung
+            Duc
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
