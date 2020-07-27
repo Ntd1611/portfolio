@@ -376,63 +376,18 @@ h6 {
   margin-top: 16px;
 }
 
-/* Start Footer Section */
-.footer {
-  overflow: hidden;
-  padding: 15px;
-  margin: 0 auto;
-  color: #bababa;
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
-.footer p {
-  float: left;
-  width: 50%;
-  font-size: 18px;
+
+#social-media-icon {
+  display: flex;
+  gap: 16px;
 }
-.footer p i {
-  color: red;
-}
-.footer ul {
-  float: right;
-  width: 50%;
-  padding: 0;
-  margin: 0;
-  text-align: right;
-}
-.footer ul li {
-  display: inline-block;
-}
-.footer ul li a {
-  text-decoration: none;
-  color: #bababa;
-}
-.footer ul li a i {
-  width: 50px;
-  height: 50px;
-  background-color: #4d4d4d;
-  line-height: 50px;
-  font-size: 35px;
-  margin-left: 5px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.footer ul li a i.fa-facebook:hover {
-  background-color: #3b5998;
-}
-.footer ul li a i.fa-twitter:hover {
-  background-color: #1da1f2;
-}
-.footer ul li a i.fa-linkedin:hover {
-  background-color: #0077b5;
-}
-.footer ul li a i.fa-github:hover {
-  background-color: #c68143;
-}
-.footer ul li a i:hover {
-  color: #fff;
-}
-/* End Footer Section */
 
 @media screen and (max-width: 1200px) {
   .main-container {
@@ -448,21 +403,5 @@ h6 {
   }
   .right-column {
     justify-content: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .footer {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .footer {
-    max-width: 1140px;
   }
 }
