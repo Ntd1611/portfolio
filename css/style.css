@@ -25,6 +25,10 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+body * {
+  transition: 0.5s;
+}
+
 a {
   text-decoration: none;
   color: #17a2b8;
@@ -125,6 +129,10 @@ h6 {
 #navigation {
   margin: 0;
   padding: 10px;
+}
+
+#navigation a {
+  color: var(--mainText);
 }
 
 #navigation li {
@@ -380,13 +388,13 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  min-height: 120px;
 }
 
 #social-media-icon {
+  min-width: 200px;
   display: flex;
-  gap: 16px;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 1200px) {
